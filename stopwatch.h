@@ -3,7 +3,7 @@
  * ---------------------------------------------------------
  * Exercise Number: 0
  * File:			stopwatch.h
- * Author:			Peter Bauer
+ * Author:			Panturu Gloria Sara
  * Due Date:		#due#
  * ----------------------------------------------------------
  * Description:
@@ -37,5 +37,8 @@
 *** Care must be taken that we measure cpu time! Check out the function clock() and the constant
 *** CLOCKS_PER_SEC from time.h in order to implement the functions correctly.
 */
+void start_stopwatch();
+double elapsed_time();
+void stop_stopwatch();
 
 #endif
